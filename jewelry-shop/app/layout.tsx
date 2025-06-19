@@ -1,11 +1,5 @@
 import type { Metadata } from "next";
-import {
-  Geist,
-  Geist_Mono,
-  Playfair,
-  DM_Sans,
-  Libre_Baskerville,
-} from "next/font/google";
+import { Geist, Geist_Mono, Playfair,DM_Sans, Libre_Baskerville } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -21,13 +15,13 @@ const geistMono = Geist_Mono({
 const dm = DM_Sans({
   variable: "--font-dm",
   subsets: ["latin"],
-});
+})
 
 const libre = Libre_Baskerville({
   variable: "--font-libre",
-  weight: ["400", "700"],
+  weight:["400","700"],
   subsets: ["latin"],
-});
+})
 const playfair = Playfair({
   variable: "--font-playfair",
   subsets: ["latin"],
